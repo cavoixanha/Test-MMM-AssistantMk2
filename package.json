@@ -1,0 +1,19 @@
+{
+  "name": "3dream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "play",
+    "sound",
+    "mm-mk2"
+  ],
+  "author": "Cavoixanha",
+  "license": "ISC",
+  "dependencies": {
+    "play-sound": "^1.1.3"
+  }
+}

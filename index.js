@@ -1,9 +1,9 @@
 var player = require('play-sound')(opts = {})
 
 // $ mplayer foo.mp3 
-// player.play('foo.mp3', function(err){
-//   if (err) throw err
-// })
+player.play('foo.mp3', function(err){
+  if (err) throw err
+})
 
 // // { timeout: 300 } will be passed to child process
 // player.play('foo.mp3', { timeout: 300 }, function(err){
@@ -15,9 +15,9 @@ var player = require('play-sound')(opts = {})
 //   if (err) throw err
 // })
 // configure arguments for executable if any
-player.play('foo.mp3', { mpg321: ['-v', 4 ] }, function(err){
-    if (err) throw err
-})
+// player.play('/home/nam/Desktop/Cty/test/foo.mp3', { mpg321: ['-v', 1 ] }, function(err){
+//     if (err) throw err
+// })
 
 // // access the node child_process in case you need to kill it on demand
 // var audio = player.play('foo.mp3', function(err){
